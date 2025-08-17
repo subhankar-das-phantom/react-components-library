@@ -6,11 +6,4 @@
       "use": "@vercel/static-build",
       "config": { "distDir": "storybook-static" }
     }
-  ],
-  "routes": [
-    {
-      "src": "/(.*)",
-      "dest": "/index.html"
-    }
-  ]
-}
+  ]}
