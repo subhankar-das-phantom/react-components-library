@@ -3,14 +3,6 @@ import { render, screen, fireEvent, waitFor } from '@testing-library/react';
 import { vi, describe, it, expect, beforeEach } from 'vitest';
 import App from './App';
 
-// Mock data for consistent testing
-const mockUsers = [
-  { id: 1, name: 'Alice', email: 'alice@example.com', age: 28, active: true },
-  { id: 2, name: 'Bob', email: 'bob@example.com', age: 32, active: false },
-  { id: 3, name: 'Carol', email: 'carol@example.com', age: 24, active: true },
-  { id: 4, name: 'Dave', email: 'dave@example.com', age: 36, active: false },
-  { id: 5, name: 'Erin', email: 'erin@example.com', age: 22, active: true },
-];
 
 describe('🎨 App Component Integration Tests', () => {
   beforeEach(() => {

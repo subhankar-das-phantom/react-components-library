@@ -882,7 +882,7 @@ function App() {
               { icon: "📱", text: "Responsive Design" },
               { icon: "🎨", text: "Beautiful UI" },
               { icon: "⚡", text: "Smooth Animations" }
-            ].map((item, index) => (
+            ].map((item) => (
               <motion.span
                 key={item.text}
                 variants={itemVariants}
