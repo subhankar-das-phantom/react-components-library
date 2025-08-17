@@ -4,8 +4,7 @@
     {
       "src": "package.json",
       "use": "@vercel/static-build",
-      "config": { "distDir": "storybook-static" },
-      "buildCommand": "npm run build-storybook"
+      "config": { "distDir": "storybook-static" }
     }
   ],
   "routes": [
